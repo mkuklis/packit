@@ -1,0 +1,10 @@
+{   "name": "packit"
+  , "version": "0.0.1"
+  , "description": "Packit asset packaging library"
+  , "keywords": ["assets", "packaging", "templates"]
+  , "author": "mkuklis <michal.kuklis@gmail.com>"
+  , "dependencies": { }
+  , "bin": { "packit": "./bin/packit" }
+  , "main": "index"
+  , "engines": { "node": "0.4.x" }
+}
