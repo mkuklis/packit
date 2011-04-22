@@ -29,13 +29,18 @@ var usage = [
   , ''
   , '  Options:'
   , ''
-  , '    -i, --input       input path which contains templates'
-  , '    -o, --output      output file name default: <templates.js>'
-  , '    -n, --namespace   template namespace default: <templates>'
+  , '    -c, --config      path to config file'
+  , '    -o, --output      output file name <templates.js>'
+  , '    -n, --namespace   template namespace <templates>'
   , '    -V, --version     output program version'
   , '    -h, --help        display help information'
   , ''
 ].join('\n');
+
+if (!args.length) { 
+  console.log(usage);
+  process.exit();
+}
 
 var arg;
 while (args.length) {
@@ -53,9 +58,9 @@ while (args.length) {
       console.log(packit.version);
       process.exit();
       break;
-    case '-i':
-    case '--input':
-      options.inputPath = args.shift();
+    case '-c':
+    case '--config':
+      options.configPath = args.shift();
       break;
     case '-o':
     case '--output':

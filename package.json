@@ -3,7 +3,7 @@
   , "description": "Packit asset packaging library"
   , "keywords": ["assets", "packaging", "templates"]
   , "author": "mkuklis <michal.kuklis@gmail.com>"
-  , "dependencies": { }
+  , "dependencies": {"underscore": "1.1.6"}
   , "bin": { "packit": "./bin/packit" }
   , "main": "index"
   , "engines": { "node": "0.4.x" }
