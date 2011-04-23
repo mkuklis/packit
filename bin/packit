@@ -4,8 +4,7 @@
  * Dependencies.
  */
 
-var packit = require('../')
-  , fs = require('fs');
+var packit = require('../');
 
 /**
  * Arguments.
@@ -77,4 +76,3 @@ while (args.length) {
 }
 
 packit.compile(options);
-
