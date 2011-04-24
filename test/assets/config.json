@@ -1,0 +1,6 @@
+{  
+  "templates": [
+    "/templates/tmp1.html",
+    "/templates/tmp2.html"   
+  ]
+}
