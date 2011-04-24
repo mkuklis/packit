@@ -1,6 +1,7 @@
 {  
   "templates": [
     "/templates/tmp1.html",
-    "/templates/tmp2.html"   
+    "/templates/tmp2.html",
+    "/templates/subfolder/tmp3.html"  
   ]
 }
